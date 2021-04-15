@@ -5,5 +5,5 @@ Herramientas útiles para afrontar CTF.
 ### Netdiscover
 Ejemplo:
 ```
-sudo netdiscover 192.168.1.110
+netdiscover 192.168.1.110
 ```

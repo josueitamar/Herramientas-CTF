@@ -12,6 +12,5 @@ Ejemplos:
 
 Detección de servicios standard
 ```
-Detección de servicios standard
 nmap -sV <192.168.1.110>
 ```

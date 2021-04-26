@@ -12,5 +12,9 @@ Ejemplos:
 
 Detección de servicios standard
 ```
-nmap -sV <192.168.1.110>
+nmap -sV 192.168.1.110
+```
+Detección de servicios con vulnerabilidades
+```
+Command: nmap -sV -vv --script vuln 192.168.1.110
 ```

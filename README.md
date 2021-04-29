@@ -19,6 +19,10 @@ Detección de servicios con vulnerabilidades
 ```
 nmap -sV -vv --script vuln 192.168.1.110
 ```
+Enumeración de directorios SAMBA
+```
+nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 192.168.1.110
+```
 
 ## Otras Herramientas
 ### Analizador de Hashes

@@ -5,7 +5,8 @@ Herramientas útiles para afrontar CTF.
 ### NETDISCOVER
 Ejemplo:
 ```
-netdiscover 192.168.1.110
+netdiscover -i eth0 //Para redes comunes en una interface de red específica.
+netdiscover -r 192.168.1.0/24 //Para escanear un rango dentro de una red específica (CIDR).
 ```
 ### NMAP
 Ejemplos:

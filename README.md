@@ -23,6 +23,11 @@ Enumeración de directorios SAMBA
 ```
 nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 192.168.1.110
 ```
+## GOBUSTER
+Detección de directorios y archivos con la ayuda de un diccionario
+```
+gobuster dir -u http://192.168.1.110/ -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x php,html,txt,old,bak,bin
+```
 ### PYTHON3
 Ejemplos:
 

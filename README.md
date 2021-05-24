@@ -23,6 +23,15 @@ Enumeración de directorios SAMBA
 ```
 nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 192.168.1.110
 ```
+### Enumeración de subdominios
+Web
+```
+https://www.nmmapper.com/sys/tools/subdomainfinder/
+```
+Herramientas incluidas en Kali/ParrotOS
+```
+sublist3r -d dominio.com
+```
 ## GOBUSTER
 Detección de directorios y archivos con la ayuda de un diccionario
 ```

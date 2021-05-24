@@ -32,7 +32,7 @@ Herramientas incluidas en Kali/ParrotOS
 ```
 sublist3r -d dominio.com
 ```
-## GOBUSTER
+### GOBUSTER
 Detección de directorios y archivos con la ayuda de un diccionario
 ```
 gobuster dir -u http://192.168.1.110/ -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x php,html,txt,old,bak,bin

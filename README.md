@@ -32,6 +32,11 @@ Herramientas incluidas en Kali/ParrotOS
 ```
 sublist3r -d dominio.com
 ```
+### WHOIS
+Web
+```
+https://who.is/whois
+```
 ### GOBUSTER
 Detección de directorios y archivos con la ayuda de un diccionario
 ```

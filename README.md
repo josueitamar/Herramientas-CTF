@@ -37,6 +37,10 @@ Web
 ```
 https://who.is/whois
 ```
+Herramientas incluidas en Kali/ParrotOS
+```
+whois dominio.com
+```
 ### GOBUSTER
 Detección de directorios y archivos con la ayuda de un diccionario
 ```

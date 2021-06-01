@@ -1,6 +1,16 @@
 # Herramientas-CTF
 Herramientas útiles para afrontar CTF.
 
+## Ocultar IP
+### KALITORIFY
+https://www.youtube.com/watch?v=bC6pL6mEnuo
+
+
+Verificar IP pública a la cual estamos conectados:
+```
+wget -qO- http://ipecho.net/plain | xargs echo
+```
+
 ## Reconocimiento:
 ### NETDISCOVER
 Ejemplos:

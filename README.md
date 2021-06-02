@@ -15,7 +15,7 @@ wget -qO- http://ipecho.net/plain | xargs echo
 ### NETDISCOVER
 Ejemplos:
 ```
-netdiscover -i eth0 //Para redes comunes en una interface de red específica.
+netdiscover -i <INTERFACE> //Para redes comunes en una interface de red específica (Ejemplo: eth0).
 netdiscover -r 192.168.1.0/24 //Para escanear un rango dentro de una red específica (CIDR).
 ```
 ### NMAP

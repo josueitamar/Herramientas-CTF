@@ -4,6 +4,7 @@ Herramientas útiles para afrontar CTF.
 ## Ocultar IP
 ### KALITORIFY
 Instalación:
+
 https://www.youtube.com/watch?v=bC6pL6mEnuo
 
 Iniciar kalitorify sobre proxy tor:

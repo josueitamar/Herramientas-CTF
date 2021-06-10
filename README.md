@@ -15,9 +15,9 @@ sudo kalitorify -t
 Verificar IP pública a la cual estamos conectados:
 ```
 wget -qO- http://ipecho.net/plain | xargs echo
-```
+
 curl ip.me
-```
+ 
 curl ifconfig.me
 ```
 

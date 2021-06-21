@@ -68,7 +68,7 @@ gobuster dir -u http://192.168.1.110/ -w /usr/share/dirbuster/wordlists/director
 https://www.exploit-db.com/google-hacking-database
 ```
 ## Inyección SQL
-Codificación de URL para payloads
+Codificación de URL para crear cargas útiles (payloads)
 ```
 https://www.w3schools.com/tags/ref_urlencode.ASP
 ```

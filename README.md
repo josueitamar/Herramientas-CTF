@@ -111,7 +111,14 @@ Repositorio de binarios Unix utiles para escalar privilegios
 ```
 https://gtfobins.github.io/
 ```
-
+Buscar permisos sudo del usuario activo:
+```
+find / -perm -u=s -type f 2>/dev/null
+```
+Busqueda de archivos con exptensión específica
+```
+find / -type f -name "*.sql"
+```
 
 ## Otras Herramientas
 ### Analizador de Hashes

@@ -115,7 +115,7 @@ Buscar permisos sudo del usuario activo:
 ```
 find / -perm -u=s -type f 2>/dev/null
 ```
-Busqueda de archivos con exptensión específica
+Busqueda de archivos con extensión específica
 ```
 find / -type f -name "*.sql"
 ```

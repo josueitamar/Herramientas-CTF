@@ -111,7 +111,7 @@ Repositorio de binarios Unix utiles para escalar privilegios
 ```
 https://gtfobins.github.io/
 ```
-Buscar permisos sudo del usuario activo:
+Buscar archivos que son propiedad de root y tienen al menos el permiso SUID: 
 ```
 find / -perm -u=s -type f 2>/dev/null
 ```

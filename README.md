@@ -123,6 +123,7 @@ find / -type f -name "*.sql"
 ## Otras Herramientas
 ### Analizador de Hashes
 https://www.tunnelsup.com/hash-analyzer/
+https://www.onlinehashcrack.com/hash-identification.php
 
 ### Hash Cracker
 https://crackstation.net/

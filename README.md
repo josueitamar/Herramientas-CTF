@@ -124,6 +124,7 @@ find / -type f -name "*.sql"
 ### Analizador de Hashes
 https://www.tunnelsup.com/hash-analyzer/
 https://www.onlinehashcrack.com/hash-identification.php
+https://md5hashing.net/hash_type_checker
 
 ### Hash Cracker
 https://crackstation.net/

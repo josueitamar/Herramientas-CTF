@@ -103,6 +103,10 @@ export TERM=xterm
 python3 -c "import pty;pty.spawn('/bin/bash')"
 ```
 ## Escalar Privilegios
+### LINENUM
+```
+github
+```
 Listar comandos permitidos para el usuario activo
 ```
 sudo -l

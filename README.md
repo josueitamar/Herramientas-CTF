@@ -103,6 +103,7 @@ export TERM=xterm
 python3 -c "import pty;pty.spawn('/bin/bash')"
 ```
 ## Escalar Privilegios
+https://d00mfist.gitbooks.io/ctf/content/privilege_escalation_-_linux.html
 ### LINENUM
 Útil para escalar privilegios cuando ya se tiene un usuario comprometido satisfactoriamente
 - Descargar

@@ -104,13 +104,18 @@ python3 -c "import pty;pty.spawn('/bin/bash')"
 ```
 ## Escalar Privilegios
 ### LINENUM
-```
-- Útil para escalar privilegios cuando ya se tiene un usuario comprometido satisfactoriamente
-- Descarga: https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh
+Útil para escalar privilegios cuando ya se tiene un usuario comprometido satisfactoriamente
+- Descargar
+  - https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh
 - Montar en maquina destino (atacada)
-- Ceder permisos de ejecución (chmod +x LinEnum.sh)
-- Ejecutar y guarda resultadoa para su respectivo análisis (./LinEnum > Result.txt)
-```
+  - Montar un webserver y wget, o copiar con editor de texto
+- Ceder permisos de ejecución
+  - chmod +x LinEnum.sh
+- Ejecutar y guarda resultadoa para su respectivo análisis
+  - ./LinEnum > Result.txt
+
+
+---
 Listar comandos permitidos para el usuario activo
 ```
 sudo -l

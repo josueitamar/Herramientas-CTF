@@ -26,6 +26,8 @@ netdiscover -i <INTERFACE> //Para redes comunes en una interface de red específ
 netdiscover -r 192.168.1.0/24 //Para escanear un rango dentro de una red específica (CIDR).
 ```
 ### NMAP
+Análisis y descubrimiento de servicios y puertos.
+
 Ejemplos:
 
 Detección de servicios standard
@@ -39,6 +41,13 @@ nmap -sV -vv --script vuln 192.168.1.110
 Enumeración de directorios SAMBA
 ```
 nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 192.168.1.110
+```
+### ENUM4LINUX
+Análisis y descubrimiento de recursos compartidos vía SMB
+```
+enum4linux -U 192.168.1.110     Usuarios.
+enum4linux -S 192.168.1.110     Listas compartidas.
+enum4linux -P 192.168.1.110     Política de contraseñas.
 ```
 ### Enumeración de subdominios
 Web

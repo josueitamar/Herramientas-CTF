@@ -42,6 +42,10 @@ Enumeración de directorios SAMBA
 ```
 nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 192.168.1.110
 ```
+### Port Knocking
+```
+for PORT in 1111 2222 3333 4444; do nc -vz 192.168.1.110 $PORT; done;
+```
 ### ENUM4LINUX
 Análisis y descubrimiento de recursos compartidos vía SMB
 ```

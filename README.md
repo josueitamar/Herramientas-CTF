@@ -88,6 +88,7 @@ hydra -l molly -P /usr/share/wordlists/rockyou.txt 192.168.1.110 -t 4 ssh
 ### HASHCAT
 Lista de modos (algoritmos) a escanear: https://hashcat.net/wiki/doku.php?id=example_hashes
 ```
+# 0 para MD5
 hashcat -m 0 hashes.txt /usr/share/wordlists/rockyou.txt
 ```
 ### Inyección SQL:

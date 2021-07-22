@@ -76,11 +76,6 @@ Detección de directorios y archivos con la ayuda de un diccionario
 ```
 gobuster dir -u http://192.168.1.110/ -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x php,html,txt,old,bak,bin
 ```
-### GOOGLE DORKS
-```
-https://www.exploit-db.com/google-hacking-database
-```
-## Fuerza Bruta:
 ### HYDRA
 http-post-form
 ```
@@ -90,21 +85,25 @@ ssh
 ```
 hydra -l molly -P /usr/share/wordlists/rockyou.txt 192.168.1.110 -t 4 ssh
 ```
-
-## Inyección SQL:
+### HASHCAT
+Lista de modos (algoritmos) a escanear: https://hashcat.net/wiki/doku.php?id=example_hashes
+```
+hashcat -m 0 hashes.txt /usr/share/wordlists/rockyou.txt
+```
+### Inyección SQL:
 Codificación de URL para crear cargas útiles (payloads)
 ```
 https://www.w3schools.com/tags/ref_urlencode.ASP
 ```
 
-## PYTHON3:
+### PYTHON3:
 Ejemplos:
 
 Inicar WebServer
 ```
 python3 -m http.server 12345
 ```
-## REVERSE SHELL:
+### REVERSE SHELL:
 
 Configurar puerto escucha en netcat
 ```
@@ -115,7 +114,7 @@ Importar una terminal interactiva
 export TERM=xterm
 python3 -c "import pty;pty.spawn('/bin/bash')"
 ```
-## Escalar Privilegios
+### Escalar Privilegios
 https://d00mfist.gitbooks.io/ctf/content/privilege_escalation_-_linux.html
 ### LINENUM
 Útil para escalar privilegios cuando ya se tiene un usuario comprometido satisfactoriamente

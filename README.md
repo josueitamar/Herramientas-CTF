@@ -74,7 +74,7 @@ whois dominio.com
 ### GOBUSTER
 Detección de directorios y archivos con la ayuda de un diccionario
 ```
-gobuster dir -u http://192.168.1.110/ -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x php,html,txt,old,bak,bin
+gobuster dir -u http://192.168.1.110/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,txt,old,bak,bin
 ```
 ### HYDRA
 http-post-form

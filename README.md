@@ -155,3 +155,6 @@ https://md5hashing.net/hash_type_checker
 
 ### Hash Cracker
 https://crackstation.net/
+
+### CyberChef
+https://gchq.github.io/CyberChef/

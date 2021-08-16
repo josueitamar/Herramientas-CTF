@@ -105,7 +105,10 @@ Inicar WebServer
 python3 -m http.server 12345
 ```
 ### REVERSE SHELL:
-
+Descargar y editar (IP y Puerto)
+```
+https://github.com/josueitamar/php-reverse-shell/blob/master/php-reverse-shell.php
+```
 Configurar puerto escucha en netcat
 ```
 nc -lnvp 4444

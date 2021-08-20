@@ -113,7 +113,8 @@ Configurar puerto escucha en netcat
 ```
 nc -lnvp 4444
 ```
-Importar una terminal interactiva
+Estabilizar una terminal interactiva
+-Python
 ```
 export TERM=xterm
 python3 -c "import pty;pty.spawn('/bin/bash')"

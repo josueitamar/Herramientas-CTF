@@ -114,6 +114,7 @@ Configurar puerto escucha en netcat
 nc -lnvp 4444
 ```
 Estabilizar una terminal interactiva
+
 -Python
 ```
 export TERM=xterm

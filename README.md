@@ -95,6 +95,21 @@ Lista de modos (algoritmos) a escanear: https://hashcat.net/wiki/doku.php?id=exa
 # 0 para MD5
 hashcat -m 0 hashes.txt /usr/share/wordlists/rockyou.txt
 ```
+### WORDLISTCTL
+```
+git clone https://github.com/BlackArch/wordlistctl
+python3 wordlistctl.py fetch male
+     Download wordlists ...
+gunzip file.gz
+```
+
+### MENTALIST
+```
+git clone https://github.com/sc0tfree/mentalist
+sudo apt-get install python3-tk python3-pip
+python3 setup.py install
+mentalist
+```
 ### Inyección SQL:
 Codificación de URL para crear cargas útiles (payloads)
 ```

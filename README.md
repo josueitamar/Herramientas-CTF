@@ -76,6 +76,12 @@ Detección de directorios y archivos con la ayuda de un diccionario
 ```
 gobuster dir -u http://192.168.1.110/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,txt,old,bak,bin
 ```
+### SMBCLIENT
+Reconocimiento de recursos compartidos SMB
+```
+smbclient //192.168.1.110/shared_folder -U user_name (Conexión con credenciales)
+smbclient //192.168.1.110/anonymous (Conexión a directorios anónimos)
+```
 ### HYDRA
 http-post-form
 ```

@@ -76,6 +76,11 @@ Detección de directorios y archivos con la ayuda de un diccionario
 ```
 gobuster dir -u http://192.168.1.110/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,html,txt,old,bak,bin
 ```
+### WFUZZ
+Permite injectar diversas entradas en solicitudes HTTP con la ayuda de un diccionario (fuerza bruta)
+```
+wfuzz -c -z file,/usr/share/wordlists/FuzzList.txt http://10.10.116.130/api/page.php?parameter=FUZZ
+```
 ### SMBCLIENT
 Reconocimiento de recursos compartidos SMB
 ```

@@ -182,9 +182,10 @@ find / -perm -u=s -type f 2>/dev/null
 find / -type f -perm -4000 2> /dev/null
 find / -type f -perm -4000 -exec ls -l {} \; 2> /dev/null (Verificar propiedad de archivos)
 ```
-Busqueda de archivos con extensión específica
+Busqueda de archivos
 ```
-find / -type f -name "*.sql"
+find / -type f -name "*.sql" <- Con extensión específica
+grep -iRl "words_to_search" /home /usr 2> /dev/null <- archivos con similitud de palabras en directorios específicos
 ```
 
 ## Otras Herramientas

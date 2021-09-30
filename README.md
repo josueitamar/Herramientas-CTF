@@ -135,6 +135,7 @@ Inicar WebServer
 python3 -m http.server 12345
 ```
 ### REVERSE SHELL:
+https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 Descargar y editar (IP y Puerto)
 ```
 https://github.com/josueitamar/php-reverse-shell/blob/master/php-reverse-shell.php

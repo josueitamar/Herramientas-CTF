@@ -126,7 +126,14 @@ Codificación de URL para crear cargas útiles (payloads)
 ```
 https://www.w3schools.com/tags/ref_urlencode.ASP
 ```
+### Cracking
+John The Ripper
 
+Crack de archivos zip con clave
+```
+zip2john archivo.zip > hash.txt
+john hash.txt
+```
 ### PYTHON3:
 Ejemplos:
 

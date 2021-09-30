@@ -178,6 +178,7 @@ Buscar archivos que son propiedad de root y tienen al menos el permiso SUID:
 ```
 find / -perm -u=s -type f 2>/dev/null
 find / -type f -perm -4000 2> /dev/null
+find / -type f -perm -4000 -exec ls -l {} \; 2> /dev/null (Verificar propiedad de archivos)
 ```
 Busqueda de archivos con extensión específica
 ```

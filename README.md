@@ -90,7 +90,7 @@ smbclient //192.168.1.110/anonymous (Conexión a directorios anónimos)
 ### HYDRA
 http-post-form
 ```
-hydra -l molly -P /usr/share/wordlists/rockyou.txt 192.168.1.110 http-post-form "/login/:username=^USER^&password=^PASS^:F=incorrect" -V
+hydra -l molly -P /usr/share/wordlists/rockyou.txt 192.168.1.110 http-post-form "/login.php:username=^USER^&password=^PASS^&Login=Login:Login Failed” -t 64 -V
 ```
 ssh
 ```

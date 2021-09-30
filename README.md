@@ -129,6 +129,11 @@ https://www.w3schools.com/tags/ref_urlencode.ASP
 ### Cracking
 John The Ripper
 
+Crack de hash sin especificar tipo de codificación
+```
+john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
+```
+
 Crack de archivos zip con clave
 ```
 zip2john archivo.zip > hash.txt

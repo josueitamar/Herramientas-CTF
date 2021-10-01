@@ -215,3 +215,6 @@ https://crackstation.net/
 
 ### CyberChef
 https://gchq.github.io/CyberChef/
+
+### Información y ayuda sobre comandos shell
+https://explainshell.com/

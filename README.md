@@ -194,7 +194,7 @@ find / -perm -u=s -type f 2>/dev/null
 find / -type f -perm -4000 2> /dev/null
 find / -type f -perm -4000 -exec ls -l {} \; 2> /dev/null (Verificar propiedad de archivos)
 ```
-Busqueda de archivos
+##Busqueda de archivos
 ```
 FIND
 find / -type f -name "*.sql" <- Con extensión específica
@@ -205,6 +205,17 @@ find /home/user/ -type f -newermt 2021-12-24 ! -newermt 2021-12-26 <- archivos e
 GREP
 grep -iRl "words_to_search" /home /usr 2> /dev/null <- archivos con similitud de palabras en directorios específicos
 ```
+
+## Esteganografía
+
+### Stegoveritas
+https://github.com/bannsec/stegoVeritas
+
+### Steghide
+https://github.com/StefanoDeVuono/steghide
+
+### Stegcracker
+https://github.com/Paradoxis/StegCracker
 
 ## Otras Herramientas
 ### Analizador de Hashes

@@ -196,11 +196,14 @@ find / -type f -perm -4000 -exec ls -l {} \; 2> /dev/null (Verificar propiedad d
 ```
 Busqueda de archivos
 ```
+FIND
 find / -type f -name "*.sql" <- Con extensión específica
-grep -iRl "words_to_search" /home /usr 2> /dev/null <- archivos con similitud de palabras en directorios específicos
 find /home/user/ -type f -user User_Name <- archivos propiedad de un usuario específico
 find /home/user/ -type f -size 52c <- archivos con un tamaño de bytes específico
 find /home/user/ -type f -newermt 2021-12-24 ! -newermt 2021-12-26 <- archivos en un rango de fechas
+
+GREP
+grep -iRl "words_to_search" /home /usr 2> /dev/null <- archivos con similitud de palabras en directorios específicos
 ```
 
 ## Otras Herramientas

@@ -140,6 +140,11 @@ Crack de archivos zip con clave
 zip2john archivo.zip > hash.txt
 john hash.txt
 ```
+
+Formatos John
+
+https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats
+
 ### PYTHON3:
 Ejemplos:
 

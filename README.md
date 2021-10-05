@@ -127,7 +127,7 @@ Codificación de URL para crear cargas útiles (payloads)
 https://www.w3schools.com/tags/ref_urlencode.ASP
 ```
 ### Cracking
-John The Ripper
+John The Ripper (https://null-byte.wonderhowto.com/forum/cracking-passwords-using-john-ripper-0181420/)
 
 Crack de hash sin especificar tipo de codificación
 ```

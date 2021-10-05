@@ -41,6 +41,7 @@ nmap -sV -vv --script vuln 192.168.1.110
 Enumeración de directorios SAMBA
 ```
 nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse 192.168.1.110
+nmap -p 139 --script=smb-enum-shares.nse,smb-enum-users.nse 192.168.1.110
 ```
 ### Port Knocking
 ```

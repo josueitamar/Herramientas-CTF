@@ -110,9 +110,10 @@ hashcat -m 0 hashes.txt /usr/share/wordlists/rockyou.txt
 ### WORDLISTCTL
 ```
 git clone https://github.com/BlackArch/wordlistctl
-python3 wordlistctl.py fetch male
+python3 wordlistctl.py search word_to_search 
+python3 wordlistctl.py fetch wordlist_to_download
      Download wordlists ...
-gunzip file.gz
+gunzip file.gz <- En caso que el archivo esté comprimido
 ```
 
 ### MENTALIST

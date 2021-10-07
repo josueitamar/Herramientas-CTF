@@ -236,6 +236,7 @@ https://hashes.com/en/tools/hash_identifier
 
 ### Hash Crackers
 https://crackstation.net/
+
 https://hashes.com/en/decrypt/hash
 
 ### CyberChef

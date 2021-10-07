@@ -234,8 +234,9 @@ https://md5hashing.net/hash_type_checker
 
 https://hashes.com/en/tools/hash_identifier
 
-### Hash Cracker
+### Hash Crackers
 https://crackstation.net/
+https://hashes.com/en/decrypt/hash
 
 ### CyberChef
 https://gchq.github.io/CyberChef/

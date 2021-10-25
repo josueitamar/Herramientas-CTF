@@ -32,7 +32,7 @@ Ejemplos:
 
 Detección de servicios standard
 ```
-nmap -sV 192.168.1.110
+nmap -sC -sV 192.168.1.110
 ```
 Detección de servicios con vulnerabilidades
 ```

@@ -155,6 +155,7 @@ python3 -m http.server 12345
 ```
 ### REVERSE SHELL:
 https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+
 https://www.revshells.com/
 
 Descargar y editar (IP y Puerto)

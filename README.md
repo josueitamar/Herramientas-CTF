@@ -61,6 +61,7 @@ https://www.nmmapper.com/sys/tools/subdomainfinder/
 ```
 Herramientas incluidas en Kali/ParrotOS
 ```
+amass enum -passive -d dominio.com -src (OWASP Tool)
 sublist3r -d dominio.com
 ```
 ### WHOIS

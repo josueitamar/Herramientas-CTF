@@ -247,3 +247,6 @@ https://gchq.github.io/CyberChef/
 
 ### Información y ayuda sobre comandos shell
 https://explainshell.com/
+
+### Editor Hexadecimal Online
+https://hexed.it/
